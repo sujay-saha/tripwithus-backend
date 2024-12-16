@@ -288,7 +288,7 @@ app.get('/hotels/filter/category', (req, res) => {
 });
 
 app.get('/hotels', (req, res) => {
-  res.json({ hotels: hotels });
+  res.json({ 'hotels': hotels });
 });
 
 app.listen(port, () => {
